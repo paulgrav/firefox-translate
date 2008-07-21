@@ -1,0 +1,9 @@
+K 10
+svn:ignore
+V 46
+ftp.txt
+ftp_test.txt
+build.bat
+build_test.bat
+
+END

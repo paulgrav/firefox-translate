@@ -1,0 +1,159 @@
+<!--
+	Translate - Firefox Extension that facilitates the translation of text and/or webpages
+    Copyright (C) 2007  Paul Grave
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License along
+    with this program; if not, write to the Free Software Foundation, Inc.,
+    51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+	
+	
+-->
+<!ENTITY translate.toolbar.label "Translate">
+<!ENTITY translate.toolbar.tooltip "Diese Webseite Übersetzen">
+
+<!ENTITY translate.toolbar.quick.label "Quick Translate">
+<!ENTITY translate.toolbar.quick.tooltip "Quick translate -> Englisch">
+
+<!ENTITY translate.context.label "Translate">
+
+<!ENTITY translate.menu.label "Translate">
+<!ENTITY translate.menu.options.label "Einstellugen">
+
+<!ENTITY toolbar.menu.zh_en.label "Übersetz vom Chinese-simp">
+<!ENTITY toolbar.menu.zt_en.label "Übersetz vom Chinese-trad">
+<!ENTITY toolbar.menu.en_zh.label "Übersetz vom Englischen">
+<!ENTITY toolbar.menu.en_zt.label "Übersetz vom Englischen">
+<!ENTITY toolbar.menu.en_nl.label "Übersetz vom Englischen">
+<!ENTITY toolbar.menu.en_fr.label "Übersetz vom Englischen">
+<!ENTITY toolbar.menu.en_de.label "Übersetz vom Englischen">
+<!ENTITY toolbar.menu.en_el.label "Übersetz vom Englischen">
+<!ENTITY toolbar.menu.en_it.label "Übersetz vom Englischen">
+<!ENTITY toolbar.menu.en_ja.label "Übersetz vom Englischen">
+<!ENTITY toolbar.menu.en_ko.label "Übersetz vom Englischen">
+<!ENTITY toolbar.menu.en_pt.label "Übersetz vom Englischen">
+<!ENTITY toolbar.menu.en_ru.label "Übersetz vom Englischen">
+<!ENTITY toolbar.menu.en_es.label "Übersetz vom Englischen">
+<!ENTITY toolbar.menu.nl_en.label "Übersetz vom Niederländischen">
+<!ENTITY toolbar.menu.nl_fr.label "Übersetz vom Niederländischen">
+<!ENTITY toolbar.menu.fr_en.label "Übersetz vom Franzsösischen">
+<!ENTITY toolbar.menu.fr_de.label "Übersetz vom Franzsösischen">
+<!ENTITY toolbar.menu.fr_el.label "Übersetz vom Franzsösischen">
+<!ENTITY toolbar.menu.fr_it.label "Übersetz vom Franzsösischen">
+<!ENTITY toolbar.menu.fr_pt.label "Übersetz vom Franzsösischen">
+<!ENTITY toolbar.menu.fr_nl.label "Übersetz vom Franzsösischen">
+<!ENTITY toolbar.menu.fr_es.label "Übersetz vom Franzsösischen">
+<!ENTITY toolbar.menu.de_en.label "Übersetz vom Deutsch">
+<!ENTITY toolbar.menu.de_fr.label "Übersetz vom Deutsch">
+<!ENTITY toolbar.menu.el_en.label "Übersetz vom Greek">
+<!ENTITY toolbar.menu.el_fr.label "Übersetz vom Greek">
+<!ENTITY toolbar.menu.it_en.label "Übersetz vom Italienischen">
+<!ENTITY toolbar.menu.it_fr.label "Übersetz vom Italienischen">
+<!ENTITY toolbar.menu.ja_en.label "Übersetz vom Japanischen">
+<!ENTITY toolbar.menu.ko_en.label "Übersetz vom Koreanischen">
+<!ENTITY toolbar.menu.pt_en.label "Übersetz vom Portugiesischen">
+<!ENTITY toolbar.menu.pt_fr.label "Übersetz vom Portugiesischen">
+<!ENTITY toolbar.menu.ru_en.label "Übersetz vom Russischen">
+<!ENTITY toolbar.menu.es_en.label "Übersetz vom Spanischen">
+<!ENTITY toolbar.menu.es_fr.label "Übersetz vom Spanischen">
+
+
+<!ENTITY zh_en.tooltip "Chinesisch-simp -> Englisch">
+<!ENTITY zt_en.tooltip "Chinesisch-trad -> Englisch">
+<!ENTITY en_zh.tooltip "Englisch -> Chinesisch-simp">
+<!ENTITY en_zt.tooltip "Englisch -> Chinesisch-trad">
+<!ENTITY en_nl.tooltip "Englisch -> Niederländisch">
+<!ENTITY en_fr.tooltip "Englisch -> Franzsösisch">
+<!ENTITY en_de.tooltip "Englisch -> Deutsch">
+<!ENTITY en_el.tooltip "Englisch -> Griechisch">
+<!ENTITY en_it.tooltip "Englisch -> Italienisch">
+<!ENTITY en_ja.tooltip "Englisch -> Japanisch">
+<!ENTITY en_ko.tooltip "Englisch -> Koreanisch">
+<!ENTITY en_pt.tooltip "Englisch -> Portugiesisch">
+<!ENTITY en_ru.tooltip "Englisch -> Russisch">
+<!ENTITY en_es.tooltip "Englisch -> Spanisch">
+<!ENTITY nl_en.tooltip "Niederländisch -> Englisch">
+<!ENTITY nl_fr.tooltip "Niederländisch -> Franzsösisch">
+<!ENTITY fr_en.tooltip "Franzsösisch -> Englisch">
+<!ENTITY fr_de.tooltip "Franzsösisch -> Deutsch">
+<!ENTITY fr_el.tooltip "Franzsösisch -> Griechisch">
+<!ENTITY fr_it.tooltip "Franzsösisch -> Italienisch">
+<!ENTITY fr_pt.tooltip "Franzsösisch -> Portugiesisch">
+<!ENTITY fr_nl.tooltip "Franzsösisch -> Niederländisch">
+<!ENTITY fr_es.tooltip "Franzsösisch -> Spanisch">
+<!ENTITY de_en.tooltip "Deutsch -> Englisch">
+<!ENTITY de_fr.tooltip "Deutsch -> Franzsösisch">
+<!ENTITY el_en.tooltip "Griechisch -> Englisch">
+<!ENTITY el_fr.tooltip "Griechisch -> Franzsösisch">
+<!ENTITY it_en.tooltip "Italienisch -> Englisch">
+<!ENTITY it_fr.tooltip "Italienisch -> Franzsösisch">
+<!ENTITY ja_en.tooltip "Japanisch -> Englisch">
+<!ENTITY ko_en.tooltip "Koreanisch -> Englisch">
+<!ENTITY pt_en.tooltip "Portugiesisch -> Englisch">
+<!ENTITY pt_fr.tooltip "Portugiesisch -> Franzsösisch">
+<!ENTITY ru_en.tooltip "Russisch -> Englisch">
+<!ENTITY es_en.tooltip "Spanisch -> Englisch">
+<!ENTITY es_fr.tooltip "Spanisch -> Franzsösisch">
+
+<!ENTITY context.menu.prefix "Übersetz">
+<!ENTITY context.menu.prefix.position "0">
+
+<!ENTITY context.menu.zh_en.label "vom Chinesischen-simp">
+<!ENTITY context.menu.zt_en.label "vom Chinesischen-trad">
+<!ENTITY context.menu.en_zh.label "vom Englischen">
+<!ENTITY context.menu.en_zt.label "vom Englischen">
+<!ENTITY context.menu.en_nl.label "vom Englischen">
+<!ENTITY context.menu.en_fr.label "vom Englischen">
+<!ENTITY context.menu.en_de.label "vom Englischen">
+<!ENTITY context.menu.en_el.label "vom Englischen">
+<!ENTITY context.menu.en_it.label "vom Englischen">
+<!ENTITY context.menu.en_ja.label "vom Englischen">
+<!ENTITY context.menu.en_ko.label "vom Englischen">
+<!ENTITY context.menu.en_pt.label "vom Englischen">
+<!ENTITY context.menu.en_ru.label "vom Englischen">
+<!ENTITY context.menu.en_es.label "vom Englischen">
+<!ENTITY context.menu.nl_en.label "vom Niederländisch">
+<!ENTITY context.menu.nl_fr.label "vom Niederländisch">
+<!ENTITY context.menu.fr_en.label "vom Franzsösischen">
+<!ENTITY context.menu.fr_de.label "vom Franzsösischen">
+<!ENTITY context.menu.fr_el.label "vom Franzsösischen">
+<!ENTITY context.menu.fr_it.label "vom Franzsösischen">
+<!ENTITY context.menu.fr_pt.label "vom Franzsösischen">
+<!ENTITY context.menu.fr_nl.label "vom Franzsösischen">
+<!ENTITY context.menu.fr_es.label "vom Franzsösischen">
+<!ENTITY context.menu.de_en.label "vom Deutsch">
+<!ENTITY context.menu.de_fr.label "vom Deutsch">
+<!ENTITY context.menu.el_en.label "vom Griechischen">
+<!ENTITY context.menu.el_fr.label "vom Griechischen">
+<!ENTITY context.menu.it_en.label "vom Italienischen">
+<!ENTITY context.menu.it_fr.label "vom Italienischen">
+<!ENTITY context.menu.ja_en.label "vom Japanischen">
+<!ENTITY context.menu.ko_en.label "vom Koreanischen">
+<!ENTITY context.menu.pt_en.label "vom Portugiesischen">
+<!ENTITY context.menu.pt_fr.label "vom Portugiesischen">
+<!ENTITY context.menu.ru_en.label "vom Russischen">
+<!ENTITY context.menu.es_en.label "vom Spanischen">
+<!ENTITY context.menu.es_fr.label "vom Spanischen">
+
+<!ENTITY tool.menu.en.tooltip "Englisch [EN]">
+<!ENTITY tool.menu.fr.tooltip "Franzsösisch [FR]">
+<!ENTITY tool.menu.es.tooltip "Spanisch [ES]">
+<!ENTITY tool.menu.de.tooltip "Deutsch [DE]">
+<!ENTITY tool.menu.el.tooltip "Griechisch [EL]">
+<!ENTITY tool.menu.it.tooltip "Italienisch [IT]">
+<!ENTITY tool.menu.pt.tooltip "Portugiesisch [PT]">
+<!ENTITY tool.menu.ru.tooltip "Russisch [RU]">
+<!ENTITY tool.menu.ko.tooltip "Koreanisch [KO]">
+<!ENTITY tool.menu.ja.tooltip "Japanisch [JA]">
+<!ENTITY tool.menu.nl.tooltip "Niederländisch [NL]">
+<!ENTITY tool.menu.zh.tooltip "Chinesisch-Simp [ZH]">
+<!ENTITY tool.menu.zt.tooltip "Chinesisch-Trad [ZT]">

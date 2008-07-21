@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="303"
+   name=""
+   committed-date="2005-09-23T21:55:10.109375Z"
+   url="svn://solaris/firefox/extensions/translate/trunk"
+   kind="dir"
+   uuid="ef707930-ee25-0410-8e2d-d59abe4ccc54"
+   repos="svn://solaris"
+   prop-time="2007-02-17T20:53:22.000000Z"
+   revision="315"/>
+<entry
+   committed-rev="326"
+   name="install.rdf"
+   text-time="2007-03-25T00:37:21.000000Z"
+   committed-date="2007-03-25T01:20:42.634915Z"
+   checksum="ac0e847a3ab9acde01cc5b5fa1ca8b57"
+   last-author="paul"
+   kind="file"
+   prop-time="2007-02-17T20:53:19.000000Z"
+   revision="326"/>
+<entry
+   committed-rev="318"
+   name="chrome.manifest"
+   text-time="2007-03-04T11:39:55.000000Z"
+   committed-date="2007-03-04T11:40:23.233347Z"
+   checksum="05c10799ab19ccd4d8300233bb19f6cf"
+   last-author="paul"
+   kind="file"
+   revision="318"/>
+<entry
+   name="imageSource"
+   kind="dir"/>
+<entry
+   committed-rev="324"
+   name="Rakefile.rb"
+   text-time="2007-03-21T19:47:10.000000Z"
+   committed-date="2007-03-21T19:54:49.572078Z"
+   checksum="208465d9f869db325736f53212ba375e"
+   last-author="paul"
+   kind="file"
+   revision="324"/>
+<entry
+   committed-rev="324"
+   name="update.rdf"
+   text-time="2007-03-24T23:20:41.000000Z"
+   committed-date="2007-03-21T19:54:49.572078Z"
+   checksum="643e37a192a79830b3b5d7d5d3b440ea"
+   last-author="paul"
+   kind="file"
+   prop-time="2007-02-17T20:53:21.000000Z"
+   revision="324"/>
+<entry
+   name="chrome"
+   kind="dir"/>
+</wc-entries>

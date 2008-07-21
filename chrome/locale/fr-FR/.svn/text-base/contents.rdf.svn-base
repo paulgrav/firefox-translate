@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!--
+	Translate - Firefox Extension that facilitates the translation of text and/or webpages
+    Copyright (C) 2007  Paul Grave
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License along
+    with this program; if not, write to the Free Software Foundation, Inc.,
+    51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+	
+	
+-->
+<RDF:RDF xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:chrome="http://www.mozilla.org/rdf/chrome#">
+  <!-- list all the packages being supplied by this jar -->
+  <RDF:Seq about="urn:mozilla:locale:root">
+    <RDF:li resource="urn:mozilla:locale:fr-FR"/>
+  </RDF:Seq>
+  <!-- locale information -->
+  <RDF:Description about="urn:mozilla:locale:fr-FR"
+        chrome:displayName="Français"
+        chrome:author="Marie Léger-St-Jean"
+        chrome:name="fr-FR">
+    <chrome:packages>
+      <RDF:Seq about="urn:mozilla:locale:fr-FR:packages">
+        <RDF:li resource="urn:mozilla:locale:fr-FR:translate"/>
+      </RDF:Seq>
+    </chrome:packages>
+  </RDF:Description>
+</RDF:RDF>

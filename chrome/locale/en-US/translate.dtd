@@ -1,0 +1,164 @@
+<!--
+	Translate - Firefox Extension that facilitates the translation of text and/or webpages
+    Copyright (C) 2007  Paul Grave
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License along
+    with this program; if not, write to the Free Software Foundation, Inc.,
+    51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+	
+	
+-->
+<!ENTITY translate.toolbar.label "Translate">
+<!ENTITY translate.toolbar.tooltip "Translate this web page">
+
+<!ENTITY translate.toolbar.quick.label "Quick Translate">
+<!ENTITY translate.toolbar.quick.tooltip "Quick translate -> English">
+
+<!ENTITY translate.context.label "Translate">
+
+<!ENTITY translate.menu.label "Translate">
+<!ENTITY translate.menu.options.label "Options">
+
+
+<!ENTITY toolbar.menu.zh_en.label "Translate from Chinese-simp">
+<!ENTITY toolbar.menu.zt_en.label "Translate from Chinese-trad">
+<!ENTITY toolbar.menu.en_zh.label "Translate from English">
+<!ENTITY toolbar.menu.en_zt.label "Translate from English">
+<!ENTITY toolbar.menu.en_nl.label "Translate from English">
+<!ENTITY toolbar.menu.en_fr.label "Translate from English">
+<!ENTITY toolbar.menu.en_de.label "Translate from English">
+<!ENTITY toolbar.menu.en_el.label "Translate from English">
+<!ENTITY toolbar.menu.en_it.label "Translate from English">
+<!ENTITY toolbar.menu.en_ja.label "Translate from English">
+<!ENTITY toolbar.menu.en_ko.label "Translate from English">
+<!ENTITY toolbar.menu.en_pt.label "Translate from English">
+<!ENTITY toolbar.menu.en_ru.label "Translate from English">
+<!ENTITY toolbar.menu.en_es.label "Translate from English">
+<!ENTITY toolbar.menu.nl_en.label "Translate from Dutch">
+<!ENTITY toolbar.menu.nl_fr.label "Translate from Dutch">
+<!ENTITY toolbar.menu.fr_en.label "Translate from French">
+<!ENTITY toolbar.menu.fr_de.label "Translate from French">
+<!ENTITY toolbar.menu.fr_el.label "Translate from French">
+<!ENTITY toolbar.menu.fr_it.label "Translate from French">
+<!ENTITY toolbar.menu.fr_pt.label "Translate from French">
+<!ENTITY toolbar.menu.fr_nl.label "Translate from French">
+<!ENTITY toolbar.menu.fr_es.label "Translate from French">
+<!ENTITY toolbar.menu.de_en.label "Translate from German">
+<!ENTITY toolbar.menu.de_fr.label "Translate from German">
+<!ENTITY toolbar.menu.el_en.label "Translate from Greek">
+<!ENTITY toolbar.menu.el_fr.label "Translate from Greek">
+<!ENTITY toolbar.menu.it_en.label "Translate from Italian">
+<!ENTITY toolbar.menu.it_fr.label "Translate from Italian">
+<!ENTITY toolbar.menu.ja_en.label "Translate from Japanese">
+<!ENTITY toolbar.menu.ko_en.label "Translate from Korean">
+<!ENTITY toolbar.menu.pt_en.label "Translate from Portuguese">
+<!ENTITY toolbar.menu.pt_fr.label "Translate from Portuguese">
+<!ENTITY toolbar.menu.ru_en.label "Translate from Russian">
+<!ENTITY toolbar.menu.es_en.label "Translate from Spanish">
+<!ENTITY toolbar.menu.es_fr.label "Translate from Spanish">
+
+
+
+<!ENTITY zh_en.tooltip "Chinese-simp -> English">
+<!ENTITY zt_en.tooltip "Chinese-trad -> English">
+<!ENTITY en_zh.tooltip "English -> Chinese-simp">
+<!ENTITY en_zt.tooltip "English -> Chinese-trad">
+<!ENTITY en_nl.tooltip "English -> Dutch">
+<!ENTITY en_fr.tooltip "English -> French">
+<!ENTITY en_de.tooltip "English -> German">
+<!ENTITY en_el.tooltip "English -> Greek">
+<!ENTITY en_it.tooltip "English -> Italian">
+<!ENTITY en_ja.tooltip "English -> Japanese">
+<!ENTITY en_ko.tooltip "English -> Korean">
+<!ENTITY en_pt.tooltip "English -> Portuguese">
+<!ENTITY en_ru.tooltip "English -> Russian">
+<!ENTITY en_es.tooltip "English -> Spanish">
+<!ENTITY nl_en.tooltip "Dutch -> English">
+<!ENTITY nl_fr.tooltip "Dutch -> French">
+<!ENTITY fr_en.tooltip "French -> English">
+<!ENTITY fr_de.tooltip "French -> German">
+<!ENTITY fr_el.tooltip "French -> Greek">
+<!ENTITY fr_it.tooltip "French -> Italian">
+<!ENTITY fr_pt.tooltip "French -> Portuguese">
+<!ENTITY fr_nl.tooltip "French -> Dutch">
+<!ENTITY fr_es.tooltip "French -> Spanish">
+<!ENTITY de_en.tooltip "German -> English">
+<!ENTITY de_fr.tooltip "German -> French">
+<!ENTITY el_en.tooltip "Greek -> English">
+<!ENTITY el_fr.tooltip "Greek -> French">
+<!ENTITY it_en.tooltip "Italian -> English">
+<!ENTITY it_fr.tooltip "Italian -> French">
+<!ENTITY ja_en.tooltip "Japanese -> English">
+<!ENTITY ko_en.tooltip "Korean -> English">
+<!ENTITY pt_en.tooltip "Portuguese -> English">
+<!ENTITY pt_fr.tooltip "Portuguese -> French">
+<!ENTITY ru_en.tooltip "Russian -> English">
+<!ENTITY es_en.tooltip "Spanish -> English">
+<!ENTITY es_fr.tooltip "Spanish -> French">
+
+
+
+<!ENTITY context.menu.prefix "Translate">
+<!ENTITY context.menu.prefix.position "0">
+
+<!ENTITY context.menu.zh_en.label "from Chinese-simp">
+<!ENTITY context.menu.zt_en.label "from Chinese-trad">
+<!ENTITY context.menu.en_zh.label "from English">
+<!ENTITY context.menu.en_zt.label "from English">
+<!ENTITY context.menu.en_nl.label "from English">
+<!ENTITY context.menu.en_fr.label "from English">
+<!ENTITY context.menu.en_de.label "from English">
+<!ENTITY context.menu.en_el.label "from English">
+<!ENTITY context.menu.en_it.label "from English">
+<!ENTITY context.menu.en_ja.label "from English">
+<!ENTITY context.menu.en_ko.label "from English">
+<!ENTITY context.menu.en_pt.label "from English">
+<!ENTITY context.menu.en_ru.label "from English">
+<!ENTITY context.menu.en_es.label "from English">
+<!ENTITY context.menu.nl_en.label "from Dutch">
+<!ENTITY context.menu.nl_fr.label "from Dutch">
+<!ENTITY context.menu.fr_en.label "from French">
+<!ENTITY context.menu.fr_de.label "from French">
+<!ENTITY context.menu.fr_el.label "from French">
+<!ENTITY context.menu.fr_it.label "from French">
+<!ENTITY context.menu.fr_pt.label "from French">
+<!ENTITY context.menu.fr_nl.label "from French">
+<!ENTITY context.menu.fr_es.label "from French">
+<!ENTITY context.menu.de_en.label "from German">
+<!ENTITY context.menu.de_fr.label "from German">
+<!ENTITY context.menu.el_en.label "from Greek">
+<!ENTITY context.menu.el_fr.label "from Greek">
+<!ENTITY context.menu.it_en.label "from Italian">
+<!ENTITY context.menu.it_fr.label "from Italian">
+<!ENTITY context.menu.ja_en.label "from Japanese">
+<!ENTITY context.menu.ko_en.label "from Korean">
+<!ENTITY context.menu.pt_en.label "from Portuguese">
+<!ENTITY context.menu.pt_fr.label "from Portuguese">
+<!ENTITY context.menu.ru_en.label "from Russian">
+<!ENTITY context.menu.es_en.label "from Spanish">
+<!ENTITY context.menu.es_fr.label "from Spanish">
+
+
+<!ENTITY tool.menu.en.tooltip "English [EN]">
+<!ENTITY tool.menu.fr.tooltip "French [FR]">
+<!ENTITY tool.menu.es.tooltip "Spanish [ES]">
+<!ENTITY tool.menu.de.tooltip "German [DE]">
+<!ENTITY tool.menu.el.tooltip "Greek [EL]">
+<!ENTITY tool.menu.it.tooltip "Italian [IT]">
+<!ENTITY tool.menu.pt.tooltip "Portuguese [PT]">
+<!ENTITY tool.menu.ru.tooltip "Russian [RU]">
+<!ENTITY tool.menu.ko.tooltip "Korean [KO]">
+<!ENTITY tool.menu.ja.tooltip "Japanese [JA]">
+<!ENTITY tool.menu.nl.tooltip "Dutch [NL]">
+<!ENTITY tool.menu.zh.tooltip "Chinese-Simp [ZH]">
+<!ENTITY tool.menu.zt.tooltip "Chinese-Trad [ZT]">

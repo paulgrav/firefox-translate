@@ -1,0 +1,168 @@
+<!--
+	Translate - Firefox Extension that facilitates the translation of text and/or webpages
+    Copyright (C) 2007  Paul Grave
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License along
+    with this program; if not, write to the Free Software Foundation, Inc.,
+    51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+	
+	
+-->
+<!ENTITY translate.toolbar.label "Translate">
+<!ENTITY translate.toolbar.tooltip "Tradu această pagină">
+
+<!ENTITY translate.toolbar.quick.label "Traducerea rapidă">
+<!ENTITY translate.toolbar.quick.tooltip "Traducerea -> Engleză">
+
+<!ENTITY translate.context.label "Translate">
+
+<!ENTITY translate.menu.label "Translate">
+<!ENTITY translate.menu.options.label "Opțiuni">
+
+
+
+
+<!ENTITY toolbar.menu.zh_en.label "Tradu din Chineză-simp">
+<!ENTITY toolbar.menu.zt_en.label "Tradu din Chineză-trad">
+<!ENTITY toolbar.menu.en_zh.label "Tradu din Engleză">
+<!ENTITY toolbar.menu.en_zt.label "Tradu din Engleză">
+<!ENTITY toolbar.menu.en_nl.label "Tradu din Engleză">
+<!ENTITY toolbar.menu.en_fr.label "Tradu din Engleză">
+<!ENTITY toolbar.menu.en_de.label "Tradu din Engleză">
+<!ENTITY toolbar.menu.en_el.label "Tradu din Engleză">
+<!ENTITY toolbar.menu.en_it.label "Tradu din Engleză">
+<!ENTITY toolbar.menu.en_ja.label "Tradu din Engleză">
+<!ENTITY toolbar.menu.en_ko.label "Tradu din Engleză">
+<!ENTITY toolbar.menu.en_pt.label "Tradu din Engleză">
+<!ENTITY toolbar.menu.en_ru.label "Tradu din Engleză">
+<!ENTITY toolbar.menu.en_es.label "Tradu din Engleză">
+<!ENTITY toolbar.menu.nl_en.label "Tradu din Olandeză">
+<!ENTITY toolbar.menu.nl_fr.label "Tradu din Olandeză">
+<!ENTITY toolbar.menu.fr_en.label "Tradu din Franceză">
+<!ENTITY toolbar.menu.fr_de.label "Tradu din Franceză">
+<!ENTITY toolbar.menu.fr_el.label "Tradu din Franceză">
+<!ENTITY toolbar.menu.fr_it.label "Tradu din Franceză">
+<!ENTITY toolbar.menu.fr_pt.label "Tradu din Franceză">
+<!ENTITY toolbar.menu.fr_nl.label "Tradu din Franceză">
+<!ENTITY toolbar.menu.fr_es.label "Tradu din Franceză">
+<!ENTITY toolbar.menu.de_en.label "Tradu din Germană">
+<!ENTITY toolbar.menu.de_fr.label "Tradu din Germană">
+<!ENTITY toolbar.menu.el_en.label "Tradu din Greacă">
+<!ENTITY toolbar.menu.el_fr.label "Tradu din Greacă">
+<!ENTITY toolbar.menu.it_en.label "Tradu din Italiană">
+<!ENTITY toolbar.menu.it_fr.label "Tradu din Italiană">
+<!ENTITY toolbar.menu.ja_en.label "Tradu din Japoneză">
+<!ENTITY toolbar.menu.ko_en.label "Tradu din Coreană">
+<!ENTITY toolbar.menu.pt_en.label "Tradu din Portugheză">
+<!ENTITY toolbar.menu.pt_fr.label "Tradu din Portugheză">
+<!ENTITY toolbar.menu.ru_en.label "Tradu din Rusă">
+<!ENTITY toolbar.menu.es_en.label "Tradu din Spaniolă">
+<!ENTITY toolbar.menu.es_fr.label "Tradu din Spaniolă">
+
+
+
+
+<!ENTITY zh_en.tooltip "Chineză-simp -> Engleză">
+<!ENTITY zt_en.tooltip "Chineză-trad -> Engleză">
+<!ENTITY en_zh.tooltip "Engleză -> Chineză-simp">
+<!ENTITY en_zt.tooltip "Engleză -> Chineză-trad">
+<!ENTITY en_nl.tooltip "Engleză -> Olandeză">
+<!ENTITY en_fr.tooltip "Engleză -> Franceză">
+<!ENTITY en_de.tooltip "Engleză -> Germană">
+<!ENTITY en_el.tooltip "Engleză -> Greacă">
+<!ENTITY en_it.tooltip "Engleză -> Italiană">
+<!ENTITY en_ja.tooltip "Engleză -> Japoneză">
+<!ENTITY en_ko.tooltip "Engleză -> Coreană">
+<!ENTITY en_pt.tooltip "Engleză -> Portugheză">
+<!ENTITY en_ru.tooltip "Engleză -> Rusă">
+<!ENTITY en_es.tooltip "Engleză -> Spaniolă">
+<!ENTITY nl_en.tooltip "Olandeză -> Engleză">
+<!ENTITY nl_fr.tooltip "Olandeză -> Franceză">
+<!ENTITY fr_en.tooltip "Franceză -> Engleză">
+<!ENTITY fr_de.tooltip "Franceză -> Germană">
+<!ENTITY fr_el.tooltip "Franceză -> Greacă">
+<!ENTITY fr_it.tooltip "Franceză -> Italiană">
+<!ENTITY fr_pt.tooltip "Franceză -> Portugheză">
+<!ENTITY fr_nl.tooltip "Franceză -> Olandeză">
+<!ENTITY fr_es.tooltip "Franceză -> Spaniolă">
+<!ENTITY de_en.tooltip "Germană -> Engleză">
+<!ENTITY de_fr.tooltip "Germană -> Franceză">
+<!ENTITY el_en.tooltip "Greacă -> Engleză">
+<!ENTITY el_fr.tooltip "Greacă -> Franceză">
+<!ENTITY it_en.tooltip "Italiană -> Engleză">
+<!ENTITY it_fr.tooltip "Italiană -> Franceză">
+<!ENTITY ja_en.tooltip "Japoneză -> Engleză">
+<!ENTITY ko_en.tooltip "Coreană -> Engleză">
+<!ENTITY pt_en.tooltip "Portugheză -> Engleză">
+<!ENTITY pt_fr.tooltip "Portugheză -> Franceză">
+<!ENTITY ru_en.tooltip "Rusă -> Engleză">
+<!ENTITY es_en.tooltip "Spaniolă -> Engleză">
+<!ENTITY es_fr.tooltip "Spaniolă -> Franceză">
+
+
+
+
+<!ENTITY context.menu.prefix "Tradu">
+<!ENTITY context.menu.prefix.position "0">
+
+<!ENTITY context.menu.zh_en.label "din Chineză-simp">
+<!ENTITY context.menu.zt_en.label "din Chineză-trad">
+<!ENTITY context.menu.en_zh.label "din Engleză">
+<!ENTITY context.menu.en_zt.label "din Engleză">
+<!ENTITY context.menu.en_nl.label "din Engleză">
+<!ENTITY context.menu.en_fr.label "din Engleză">
+<!ENTITY context.menu.en_de.label "din Engleză">
+<!ENTITY context.menu.en_el.label "din Engleză">
+<!ENTITY context.menu.en_it.label "din Engleză">
+<!ENTITY context.menu.en_ja.label "din Engleză">
+<!ENTITY context.menu.en_ko.label "din Engleză">
+<!ENTITY context.menu.en_pt.label "din Engleză">
+<!ENTITY context.menu.en_ru.label "din Engleză">
+<!ENTITY context.menu.en_es.label "din Engleză">
+<!ENTITY context.menu.nl_en.label "din Olandeză">
+<!ENTITY context.menu.nl_fr.label "din Olandeză">
+<!ENTITY context.menu.fr_en.label "din Franceză">
+<!ENTITY context.menu.fr_de.label "din Franceză">
+<!ENTITY context.menu.fr_el.label "din Franceză">
+<!ENTITY context.menu.fr_it.label "din Franceză">
+<!ENTITY context.menu.fr_pt.label "din Franceză">
+<!ENTITY context.menu.fr_nl.label "din Franceză">
+<!ENTITY context.menu.fr_es.label "din Franceză">
+<!ENTITY context.menu.de_en.label "din Germană">
+<!ENTITY context.menu.de_fr.label "din Germană">
+<!ENTITY context.menu.el_en.label "din Greacă">
+<!ENTITY context.menu.el_fr.label "din Greacă">
+<!ENTITY context.menu.it_en.label "din Italiană">
+<!ENTITY context.menu.it_fr.label "din Italiană">
+<!ENTITY context.menu.ja_en.label "din Japoneză">
+<!ENTITY context.menu.ko_en.label "din Coreană">
+<!ENTITY context.menu.pt_en.label "din Portugheză">
+<!ENTITY context.menu.pt_fr.label "din Portugheză">
+<!ENTITY context.menu.ru_en.label "din Rusă">
+<!ENTITY context.menu.es_en.label "din Spaniolă">
+<!ENTITY context.menu.es_fr.label "din Spaniolă">
+
+
+<!ENTITY tool.menu.en.tooltip "Engleză [EN]">
+<!ENTITY tool.menu.fr.tooltip "Franceză [FR]">
+<!ENTITY tool.menu.es.tooltip "Spaniolă [ES]">
+<!ENTITY tool.menu.de.tooltip "Germană [DE]">
+<!ENTITY tool.menu.el.tooltip "Greacă [EL]">
+<!ENTITY tool.menu.it.tooltip "Italiană [IT]">
+<!ENTITY tool.menu.pt.tooltip "Portugheză [PT]">
+<!ENTITY tool.menu.ru.tooltip "Rusă [RU]">
+<!ENTITY tool.menu.ko.tooltip "Coreană [KO]">
+<!ENTITY tool.menu.ja.tooltip "Japoneză [JA]">
+<!ENTITY tool.menu.nl.tooltip "Olandeză [NL]">
+<!ENTITY tool.menu.zh.tooltip "Chineză-Simp [ZH]">
+<!ENTITY tool.menu.zt.tooltip "Chineză-Trad [ZT]">

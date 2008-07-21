@@ -1,0 +1,51 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://translate/skin/translate.css" type="text/css"?>
+<?xml-stylesheet href="chrome://translate/skin/toolbarOptions.css" type="text/css"?>
+<?xml-stylesheet href="chrome://translate/skin/contextOptions.css" type="text/css"?>
+<?xml-stylesheet href="chrome://translate/skin/toolsMenu.css" type="text/css"?>
+<!DOCTYPE window SYSTEM "chrome://translate/locale/translate.dtd" >
+<!--
+	Translate - Firefox Extension that facilitates the translation of text and/or webpages
+    Copyright (C) 2007  Paul Grave
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License along
+    with this program; if not, write to the Free Software Foundation, Inc.,
+    51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+	
+	
+-->
+<overlay id="translateToolbarOverlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+<script type="application/x-javascript" src="chrome://translate/content/language_pairs.js"/>
+<script type="application/x-javascript" src="chrome://translate/content/translate-prefs.js"/>
+<script type="application/x-javascript" src="chrome://translate/content/translate.js"/>
+
+<stringbundleset id="stringbundleset">
+        <stringbundle id="bundle-translate" src="chrome://translate/locale/translate.properties"/>
+</stringbundleset>
+
+<toolbarpalette id="BrowserToolbarPalette" >
+	<toolbarbutton  label="&translate.toolbar.label;"  class="translate-tool-en toolbarbutton-1" id="translate-pg"  tooltiptext="&translate.toolbar.tooltip;" type="menu-button" oncommand="if (event.target==this)   gPGTranslate.quickTranslate();">
+		<menupopup id="translate-toolbutton-menupopup" onpopupshowing="gPGTranslate.fillToolbutton();" /><!-- options are bound here using
+		toolbarOptions.xml -->
+	</toolbarbutton>
+</toolbarpalette>
+
+<popup id="contentAreaContextMenu">
+	<menuseparator id="translateSeparator"/>
+	<menu label="&translate.context.label;"  id="translate-context" class="pt" >
+		<menupopup id="contextOptions" />
+	</menu>
+</popup>
+
+</overlay>
+

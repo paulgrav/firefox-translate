@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="301"
+   name=""
+   committed-date="2005-09-23T21:42:18.765625Z"
+   url="svn://solaris/firefox/extensions/translate/tags/r_0_6_0_8/chrome"
+   kind="dir"
+   uuid="ef707930-ee25-0410-8e2d-d59abe4ccc54"
+   repos="svn://solaris"
+   revision="315"/>
+<entry
+   name="locale"
+   kind="dir"/>
+<entry
+   name="skin"
+   kind="dir"/>
+<entry
+   name="content"
+   kind="dir"/>
+</wc-entries>
