@@ -2,7 +2,7 @@ require 'rexml/document'
 include REXML
 
 EXTENSION_NAME="translate"
-BUILD_DIR="build/"
+BUILD_DIR="build/#{EXTENSION_NAME}"
 
 # here we have a directory task, it will create the 
 # build directory if it doesn't already exists
@@ -54,6 +54,7 @@ task :create_extension_xpi => [:create_chrome_jar,  :create_chrome_manifest, :cr
 	end
 	
 	sh "cd #{BUILD_DIR} && zip -qr -9 ../../#{EXTENSION_NAME}-#{version_number}-fx.xpi *"
+	
 	rm_rf "build"
 end
 
